@@ -19,4 +19,8 @@ class Book
     @page_count = pages
   end
   
+  def page_count
+    @page_count
+  end
+  
 end
